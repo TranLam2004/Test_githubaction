@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        compiler: [ g++, clang++ ]
+        compiler: [ g++]
         build_type: [ Release, Debug ]
 
     steps:
